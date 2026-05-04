@@ -1,28 +1,4 @@
-export interface MenuItem {
-  name: string;
-  description: string;
-  price?: string;
-}
-
-export interface MenuSection {
-  title: string;
-  note: string;
-  items: MenuItem[];
-}
-
-export interface RestaurantData {
-  key: string;
-  name: string;
-  cuisine: string;
-  menuSourceLabel: string;
-  menuSourceUrl: string;
-  bookingUrl: string;
-  hours: string[];
-  heroImage: string;
-  sections: MenuSection[];
-}
-
-export const restaurantData: RestaurantData = {
+export const restaurantData = {
   "key": "longwang",
   "name": "Longwang Restaurant",
   "cuisine": "Modern Asian seafood, wok dishes and banquets in Brisbane City",
@@ -124,7 +100,7 @@ export const restaurantData: RestaurantData = {
   "internationalPhone": "+61 7 3211 8880",
   "email": "",
   "website": "https://www.longwang.com.au/",
-  "googleMapsUrl": "https://maps.google.com/?cid=18290304474129234230",
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Longwang%20Restaurant%20144%20Edward%20St%2C%20Brisbane%20City%20QLD%204000%2C%20Australia",
   "rating": 4.8,
   "reviewCount": 1863,
   "businessStatus": "OPERATIONAL",
