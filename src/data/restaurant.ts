@@ -26,16 +26,19 @@ export const restaurantData: RestaurantData = {
   "key": "longwang",
   "name": "Longwang Restaurant",
   "cuisine": "Modern Asian seafood, wok dishes and banquets in Brisbane City",
-  "menuSourceLabel": "Official Longwang restaurant menu",
+  "menuSourceLabel": "Official website menu + Google Places",
   "menuSourceUrl": "https://www.longwang.com.au/menu",
-  "bookingUrl": "https://www.sevenrooms.com",
+  "bookingUrl": "https://www.sevenrooms.com/explore/longwangchopstickhouse/reservations/create/search?venues=longwangchopstickhouse,pompetteau,darkshepherd,yamasgreekdrink,stilts,richandrarerestaurant,fatcowrestaurant,opabarmezze,massimorestaurantandbar,foshbarrestaurant",
   "hours": [
-    "7 days",
-    "All day dining 11am-late",
-    "Bar snacks 11am-9:30pm",
-    "Dragon Hour 4-6pm"
+    "Monday: 11:00 AM – 9:00 PM",
+    "Tuesday: 11:00 AM – 9:00 PM",
+    "Wednesday: 11:00 AM – 9:00 PM",
+    "Thursday: 11:00 AM – 9:00 PM",
+    "Friday: 11:00 AM – 9:30 PM",
+    "Saturday: 11:00 AM – 9:30 PM",
+    "Sunday: 11:00 AM – 9:00 PM"
   ],
-  "heroImage": "https://images.unsplash.com/photo-1526318896980-cf78c088247c?auto=format&fit=crop&w=1400&q=85",
+  "heroImage": "/images/official-1.jpg",
   "sections": [
     {
       "title": "To Start",
@@ -115,5 +118,34 @@ export const restaurantData: RestaurantData = {
         }
       ]
     }
-  ]
+  ],
+  "address": "144 Edward St, Brisbane City QLD 4000, Australia",
+  "phone": "(07) 3211 8880",
+  "internationalPhone": "+61 7 3211 8880",
+  "email": "",
+  "website": "https://www.longwang.com.au/",
+  "googleMapsUrl": "https://maps.google.com/?cid=18290304474129234230",
+  "rating": 4.8,
+  "reviewCount": 1863,
+  "businessStatus": "OPERATIONAL",
+  "location": {
+    "lat": -27.4696331,
+    "lng": 153.0280394
+  },
+  "logoImage": "/images/logo.png",
+  "galleryImages": [
+    "/images/official-2.jpg",
+    "/images/google-1.jpg",
+    "/images/google-2.jpg",
+    "/images/google-3.jpg"
+  ],
+  "brand": {
+    "bg": "#0b0907",
+    "paper": "#f5eee4",
+    "ink": "#17120e",
+    "muted": "#7c6b5b",
+    "accent": "#b9802f",
+    "accent2": "#d8b36a",
+    "logoInvert": true
+  }
 };
