@@ -15,8 +15,8 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   name: 'Longwang Restaurant',
-  tagline: 'Professional restaurant in Brisbane, Australia',
-  description: 'Longwang Restaurant - restaurant in Brisbane, Australia. Rated 4.8/5 with 1863 reviews.',
+  tagline: "Modern Asian seafood, wok dishes and banquets in Brisbane City",
+  description: "Longwang Restaurant menu, hours, phone, address and booking details based on public restaurant data.",
   email: 'contact@longwang-restaurant.com',
   domain: 'longwang-restaurant.webjuice.fengtalk.ai',
   fromName: 'Longwang Restaurant',
